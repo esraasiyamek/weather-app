@@ -42,7 +42,7 @@ button.addEventListener('click', function(){
     //place the value
     window.city.innerHTML= city;
     window.weather.innerHTML= weather; 
-    window.feels.innerHTML= `<b>feels like</b> ${feels}`;
+    window.feels.innerHTML= `<b>feels like</b> ${feels} <sup>°</sup>`;
     window.currentTemp.innerHTML= `${temp}<sup>°</sup>`; 
     window.minTemp.innerHTML= `${minTemp}<sup>°</sup>`
     window.maxTemp.innerHTML= `${maxTemp}<sup>°</sup>`
